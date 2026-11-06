@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t">
+<title id="t">Illustration: resort lawn and low pavilions below misty green hills</title>
+<style>@media (prefers-color-scheme: dark){.dim{opacity:.14}.k1{stop-color:#a3bcc4}.k2{stop-color:#dccfb4}}</style>
+<defs><linearGradient id="g0" x2="0" y2="1"><stop offset="0" stop-color="#c6dce2" class="k1"/><stop offset="1" stop-color="#f2e7cf" class="k2"/></linearGradient>
+<radialGradient id="r1"><stop offset="0" stop-color="#fbe6bd" stop-opacity="0.55"/><stop offset="1" stop-color="#fbe6bd" stop-opacity="0"/></radialGradient>
+<linearGradient id="g2" x2="0" y2="1"><stop offset="0" stop-color="#a9c78a"/><stop offset="1" stop-color="#8bb373"/></linearGradient></defs>
+<rect x="0" y="0" width="1200" height="800" fill="#cfe0e2"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#g0)"/>
+<circle cx="880" cy="200" r="170" fill="url(#r1)"/>
+<circle cx="880" cy="200" r="50" fill="#f8e6bd"/>
+<path d="M300 170q12 -10 24 0q12 -10 24 0" fill="none" stroke="#6f838a" stroke-width="3" stroke-linecap="round"/>
+<path d="M360 196q12 -10 24 0q12 -10 24 0" fill="none" stroke="#6f838a" stroke-width="3" stroke-linecap="round"/>
+<path d="M0 360Q200 260 420 330T820 300T1200 320V800H0Z" fill="#b4c7c8"/>
+<path d="M0 372Q300 342 600 374T1200 362V404H0Z" fill="#eef0e8" opacity="0.55"/>
+<path d="M0 420Q160 350 360 400T760 380T1200 400V800H0Z" fill="#93b1a4"/>
+<path d="M0 440Q300 412 640 446T1200 432V472H0Z" fill="#eef0e8" opacity="0.45"/>
+<path d="M0 486Q260 424 520 474T1000 452T1200 472V800H0Z" fill="#6f9a82"/>
+<path d="M0 560Q400 528 800 552T1200 546V800H0Z" fill="url(#g2)"/>
+<path d="M540 800C580 720 640 660 500 590H530C680 660 640 720 720 800Z" fill="#e3d6ba"/>
+<g transform="translate(318 594)"><rect x="-2" y="-36" width="4" height="36" fill="#6e5a46"/><circle cx="0" cy="-48" r="28" fill="#4f7d62"/><circle cx="-15" cy="-38" r="20" fill="#5d8b6c"/><circle cx="17" cy="-39" r="18" fill="#5d8b6c"/></g>
+<g transform="translate(604 588)"><rect x="-2" y="-31" width="4" height="31" fill="#6e5a46"/><circle cx="0" cy="-41" r="24" fill="#4f7d62"/><circle cx="-13" cy="-32" r="17" fill="#5d8b6c"/><circle cx="14" cy="-34" r="16" fill="#5d8b6c"/></g>
+<g transform="translate(850 584)"><rect x="-2" y="-39" width="5" height="39" fill="#6e5a46"/><circle cx="0" cy="-51" r="30" fill="#4f7d62"/><circle cx="-16" cy="-40" r="21" fill="#5d8b6c"/><circle cx="18" cy="-42" r="20" fill="#5d8b6c"/></g>
+<rect x="130" y="542" width="150" height="50" fill="#efe6d6"/><rect x="142" y="556" width="126" height="25" fill="#5f746b" opacity="0.85"/><rect x="203" y="556" width="4" height="25" fill="#efe6d6"/><path d="M106 546L151 510H259L304 546Z" fill="#8d6b55"/><path d="M145 515L205 478L265 515Z" fill="#7a5a47"/><rect x="370" y="526" width="190" height="58" fill="#efe6d6"/><rect x="382" y="540" width="166" height="29" fill="#5f746b" opacity="0.85"/><rect x="463" y="540" width="4" height="29" fill="#efe6d6"/><path d="M346 530L397 489H533L584 530Z" fill="#8d6b55"/><path d="M389 495L465 452L541 495Z" fill="#7a5a47"/><rect x="640" y="536" width="160" height="50" fill="#efe6d6"/><rect x="652" y="550" width="136" height="25" fill="#5f746b" opacity="0.85"/><rect x="718" y="550" width="4" height="25" fill="#efe6d6"/><path d="M616 540L662 505H778L824 540Z" fill="#8d6b55"/><path d="M656 510L720 474L784 510Z" fill="#7a5a47"/><rect x="890" y="520" width="200" height="60" fill="#efe6d6"/><rect x="902" y="534" width="176" height="30" fill="#5f746b" opacity="0.85"/><rect x="988" y="534" width="4" height="30" fill="#efe6d6"/><path d="M866 524L918 482H1062L1114 524Z" fill="#8d6b55"/><path d="M910 488L990 444L1070 488Z" fill="#7a5a47"/>
+<ellipse cx="120" cy="640" rx="70" ry="22" fill="#7fa86e"/>
+<ellipse cx="780" cy="650" rx="90" ry="24" fill="#7fa86e"/>
+<ellipse cx="420" cy="690" rx="60" ry="18" fill="#86ad74"/>
+<g transform="translate(1110 784)"><rect x="-8" y="-123" width="15" height="124" fill="#6e5a46"/><circle cx="0" cy="-161" r="95" fill="#4b7a5a"/><circle cx="-52" cy="-128" r="67" fill="#5a8a66"/><circle cx="57" cy="-133" r="62" fill="#5a8a66"/></g>
+<rect class="dim" width="1200" height="800" fill="#0e1b24" opacity="0"/>
+</svg>

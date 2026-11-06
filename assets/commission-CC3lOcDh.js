@@ -1,0 +1,1 @@
+const a=500,n=.05,e="accommodation_total_excluding_declared_non_commissionable_items";class t extends Error{constructor(s){super("PLATFORM_COMMISSION_FIXED"),this.attemptedBps=s}attemptedBps}function i(o){if(o!==500)throw new t(o)}export{t as C,n as P,a,i as b,e as c};

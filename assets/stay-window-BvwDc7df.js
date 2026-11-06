@@ -1,0 +1,1 @@
+import{aC as e,Z as s}from"./index-9ZZS70OS.js";const t={daysAfterArrival:1,time:"06:00"};function n(a){return e(s(a,t.daysAfterArrival),t.time)}function f(a,r){return a.operationalStatus!=="expected"?"stay_started":r>=n(a.snapshot.checkIn)?"arrival_cutoff_passed":null}export{n as a,f as s};

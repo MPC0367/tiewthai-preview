@@ -1,0 +1,1 @@
+import{j as r}from"./vendor-react-DYfeNKzJ.js";import"./index-9ZZS70OS.js";import{CatalogueNotInPreview as t}from"./CataloguePage-pRj0zNG7.js";/* empty css                */import"./vendor-intl-CFexiINc.js";import"./fields-nNCkGkAP.js";import"./chevron-down-FI3zYgdh.js";function f(){return r.jsx(t,{})}export{f as default};
