@@ -1,0 +1,1 @@
+import{a8 as t}from"./index-D0E3M0Gi.js";const o=["how","prices","refunds","terms","about"];function u(n){return!!n&&o.includes(n)}function c(n,e){const r=t(e??null);return`/help${n?`/${n}`:""}${r?`?return=${encodeURIComponent(r)}`:""}`}function a(n){const e=t(n??null);return`/account/privacy${e?`?return=${encodeURIComponent(e)}`:""}`}export{c as h,u as i,a as p};

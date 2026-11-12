@@ -1,0 +1,996 @@
+{
+  "version": 1,
+  "generatedBy": "tools/media-variants.mjs",
+  "quality": 0.8,
+  "webpQualityFloor": 0.7,
+  "jpegMaxWidth": 800,
+  "widths": [
+    480,
+    800,
+    1200,
+    1600
+  ],
+  "images": {
+    "/media/showcase/gd/deluxe-suite-living-dining.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 155017,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/deluxe-suite-living-dining-480.webp",
+          "jpeg": "/media/showcase/gd/variants/deluxe-suite-living-dining-480.jpg",
+          "webpBytes": 13600,
+          "jpegBytes": 21692
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/deluxe-suite-living-dining-800.webp",
+          "jpeg": "/media/showcase/gd/variants/deluxe-suite-living-dining-800.jpg",
+          "webpBytes": 33476,
+          "jpegBytes": 51804
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/deluxe-suite-living-dining-1200.webp",
+          "jpeg": "/media/showcase/gd/deluxe-suite-living-dining.jpg",
+          "webpBytes": 68378,
+          "jpegBytes": 155017
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/deluxe-suite-living-dining-1600.webp",
+          "jpeg": "/media/showcase/gd/deluxe-suite-living-dining.jpg",
+          "webpBytes": 116148,
+          "jpegBytes": 155017
+        }
+      ]
+    },
+    "/media/showcase/gd/executive-suite-living-dining-windows.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 186493,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/executive-suite-living-dining-windows-480.webp",
+          "jpeg": "/media/showcase/gd/variants/executive-suite-living-dining-windows-480.jpg",
+          "webpBytes": 16214,
+          "jpegBytes": 23693
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/executive-suite-living-dining-windows-800.webp",
+          "jpeg": "/media/showcase/gd/variants/executive-suite-living-dining-windows-800.jpg",
+          "webpBytes": 40730,
+          "jpegBytes": 59205
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/executive-suite-living-dining-windows-1200.webp",
+          "jpeg": "/media/showcase/gd/executive-suite-living-dining-windows.jpg",
+          "webpBytes": 83728,
+          "jpegBytes": 186493
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/executive-suite-living-dining-windows-1600.webp",
+          "jpeg": "/media/showcase/gd/executive-suite-living-dining-windows.jpg",
+          "webpBytes": 146594,
+          "jpegBytes": 186493
+        }
+      ]
+    },
+    "/media/showcase/gd/family-suite-three-beds-city-windows.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 134719,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-480.webp",
+          "jpeg": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-480.jpg",
+          "webpBytes": 12990,
+          "jpegBytes": 20602
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-800.webp",
+          "jpeg": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-800.jpg",
+          "webpBytes": 30488,
+          "jpegBytes": 48244
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-1200.webp",
+          "jpeg": "/media/showcase/gd/family-suite-three-beds-city-windows.jpg",
+          "webpBytes": 57608,
+          "jpegBytes": 134719
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/family-suite-three-beds-city-windows-1600.webp",
+          "jpeg": "/media/showcase/gd/family-suite-three-beds-city-windows.jpg",
+          "webpBytes": 95234,
+          "jpegBytes": 134719
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-entrance.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 157003,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/hotel-entrance-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-entrance-480.jpg",
+          "webpBytes": 15998,
+          "jpegBytes": 25131
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/hotel-entrance-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-entrance-800.jpg",
+          "webpBytes": 35916,
+          "jpegBytes": 58558
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/hotel-entrance-1200.webp",
+          "jpeg": "/media/showcase/gd/hotel-entrance.jpg",
+          "webpBytes": 65974,
+          "jpegBytes": 157003
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/hotel-entrance-1600.webp",
+          "jpeg": "/media/showcase/gd/hotel-entrance.jpg",
+          "webpBytes": 104218,
+          "jpegBytes": 157003
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-fitness-centre.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 325016,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/hotel-fitness-centre-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-fitness-centre-480.jpg",
+          "webpBytes": 34214,
+          "jpegBytes": 37588
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/hotel-fitness-centre-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-fitness-centre-800.jpg",
+          "webpBytes": 90828,
+          "jpegBytes": 101442
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/hotel-fitness-centre-1200.webp",
+          "jpeg": "/media/showcase/gd/hotel-fitness-centre.jpg",
+          "webpBytes": 185894,
+          "jpegBytes": 325016
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/hotel-fitness-centre-1600.webp",
+          "jpeg": "/media/showcase/gd/hotel-fitness-centre.jpg",
+          "webpBytes": 303380,
+          "jpegBytes": 325016
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-meeting-room.jpg": {
+      "width": 1600,
+      "height": 1058,
+      "bytes": 181511,
+      "variants": [
+        {
+          "width": 480,
+          "height": 317,
+          "webp": "/media/showcase/gd/variants/hotel-meeting-room-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-meeting-room-480.jpg",
+          "webpBytes": 19302,
+          "jpegBytes": 26151
+        },
+        {
+          "width": 800,
+          "height": 529,
+          "webp": "/media/showcase/gd/variants/hotel-meeting-room-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-meeting-room-800.jpg",
+          "webpBytes": 48766,
+          "jpegBytes": 65044
+        },
+        {
+          "width": 1200,
+          "height": 794,
+          "webp": "/media/showcase/gd/variants/hotel-meeting-room-1200.webp",
+          "jpeg": "/media/showcase/gd/hotel-meeting-room.jpg",
+          "webpBytes": 86570,
+          "jpegBytes": 181511
+        },
+        {
+          "width": 1600,
+          "height": 1058,
+          "webp": "/media/showcase/gd/variants/hotel-meeting-room-1600.webp",
+          "jpeg": "/media/showcase/gd/hotel-meeting-room.jpg",
+          "webpBytes": 145264,
+          "jpegBytes": 181511
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-pool-and-tower.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 339346,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/hotel-pool-and-tower-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-pool-and-tower-480.jpg",
+          "webpBytes": 41230,
+          "jpegBytes": 44919
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/hotel-pool-and-tower-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-pool-and-tower-800.jpg",
+          "webpBytes": 106760,
+          "jpegBytes": 120348
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/hotel-pool-and-tower-1200.webp",
+          "jpeg": "/media/showcase/gd/hotel-pool-and-tower.jpg",
+          "webpBytes": 219712,
+          "jpegBytes": 339346
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/hotel-pool-and-tower-1600.webp",
+          "jpeg": "/media/showcase/gd/hotel-pool-and-tower.jpg",
+          "webpBytes": 299078,
+          "jpegBytes": 339346
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-pool-loungers.jpg": {
+      "width": 1600,
+      "height": 1064,
+      "bytes": 348126,
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "webp": "/media/showcase/gd/variants/hotel-pool-loungers-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-pool-loungers-480.jpg",
+          "webpBytes": 46970,
+          "jpegBytes": 47206
+        },
+        {
+          "width": 800,
+          "height": 532,
+          "webp": "/media/showcase/gd/variants/hotel-pool-loungers-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-pool-loungers-800.jpg",
+          "webpBytes": 127350,
+          "jpegBytes": 133059
+        },
+        {
+          "width": 1200,
+          "height": 798,
+          "webp": "/media/showcase/gd/variants/hotel-pool-loungers-1200.webp",
+          "jpeg": "/media/showcase/gd/hotel-pool-loungers.jpg",
+          "webpBytes": 251406,
+          "jpegBytes": 348126
+        },
+        {
+          "width": 1600,
+          "height": 1064,
+          "webp": "/media/showcase/gd/variants/hotel-pool-loungers-1600.webp",
+          "jpeg": "/media/showcase/gd/hotel-pool-loungers.jpg",
+          "webpBytes": 345134,
+          "jpegBytes": 348126
+        }
+      ]
+    },
+    "/media/showcase/gd/hotel-towers-at-night.jpg": {
+      "width": 1080,
+      "height": 863,
+      "bytes": 127749,
+      "variants": [
+        {
+          "width": 480,
+          "height": 384,
+          "webp": "/media/showcase/gd/variants/hotel-towers-at-night-480.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-towers-at-night-480.jpg",
+          "webpBytes": 31024,
+          "jpegBytes": 38745
+        },
+        {
+          "width": 800,
+          "height": 639,
+          "webp": "/media/showcase/gd/variants/hotel-towers-at-night-800.webp",
+          "jpeg": "/media/showcase/gd/variants/hotel-towers-at-night-800.jpg",
+          "webpBytes": 65872,
+          "jpegBytes": 89881
+        }
+      ]
+    },
+    "/media/showcase/gd/junior-suite-bedroom-twin-beds.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 122470,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-480.webp",
+          "jpeg": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-480.jpg",
+          "webpBytes": 12604,
+          "jpegBytes": 20615
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-800.webp",
+          "jpeg": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-800.jpg",
+          "webpBytes": 27388,
+          "jpegBytes": 46547
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-1200.webp",
+          "jpeg": "/media/showcase/gd/junior-suite-bedroom-twin-beds.jpg",
+          "webpBytes": 48582,
+          "jpegBytes": 122470
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/junior-suite-bedroom-twin-beds-1600.webp",
+          "jpeg": "/media/showcase/gd/junior-suite-bedroom-twin-beds.jpg",
+          "webpBytes": 75032,
+          "jpegBytes": 122470
+        }
+      ]
+    },
+    "/media/showcase/gd/penthouse-suite-terrace-skyline.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 254172,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-480.webp",
+          "jpeg": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-480.jpg",
+          "webpBytes": 26558,
+          "jpegBytes": 33013
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-800.webp",
+          "jpeg": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-800.jpg",
+          "webpBytes": 66560,
+          "jpegBytes": 83404
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-1200.webp",
+          "jpeg": "/media/showcase/gd/penthouse-suite-terrace-skyline.jpg",
+          "webpBytes": 129936,
+          "jpegBytes": 254172
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/penthouse-suite-terrace-skyline-1600.webp",
+          "jpeg": "/media/showcase/gd/penthouse-suite-terrace-skyline.jpg",
+          "webpBytes": 204408,
+          "jpegBytes": 254172
+        }
+      ]
+    },
+    "/media/showcase/gd/ploy-restaurant-breakfast-poolside.jpg": {
+      "width": 1477,
+      "height": 1108,
+      "bytes": 256663,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-breakfast-poolside-480.webp",
+          "jpeg": "/media/showcase/gd/variants/ploy-restaurant-breakfast-poolside-480.jpg",
+          "webpBytes": 31668,
+          "jpegBytes": 40281
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-breakfast-poolside-800.webp",
+          "jpeg": "/media/showcase/gd/variants/ploy-restaurant-breakfast-poolside-800.jpg",
+          "webpBytes": 71154,
+          "jpegBytes": 94220
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-breakfast-poolside-1200.webp",
+          "jpeg": "/media/showcase/gd/ploy-restaurant-breakfast-poolside.jpg",
+          "webpBytes": 140962,
+          "jpegBytes": 256663
+        }
+      ]
+    },
+    "/media/showcase/gd/ploy-restaurant-dining-room.jpg": {
+      "width": 1600,
+      "height": 1067,
+      "bytes": 230913,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-dining-room-480.webp",
+          "jpeg": "/media/showcase/gd/variants/ploy-restaurant-dining-room-480.jpg",
+          "webpBytes": 23240,
+          "jpegBytes": 30375
+        },
+        {
+          "width": 800,
+          "height": 534,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-dining-room-800.webp",
+          "jpeg": "/media/showcase/gd/variants/ploy-restaurant-dining-room-800.jpg",
+          "webpBytes": 57004,
+          "jpegBytes": 75479
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-dining-room-1200.webp",
+          "jpeg": "/media/showcase/gd/ploy-restaurant-dining-room.jpg",
+          "webpBytes": 110184,
+          "jpegBytes": 230913
+        },
+        {
+          "width": 1600,
+          "height": 1067,
+          "webp": "/media/showcase/gd/variants/ploy-restaurant-dining-room-1600.webp",
+          "jpeg": "/media/showcase/gd/ploy-restaurant-dining-room.jpg",
+          "webpBytes": 182682,
+          "jpegBytes": 230913
+        }
+      ]
+    },
+    "/media/showcase/pa/aerial-estate.jpg": {
+      "width": 1600,
+      "height": 977,
+      "bytes": 242840,
+      "variants": [
+        {
+          "width": 480,
+          "height": 293,
+          "webp": "/media/showcase/pa/variants/aerial-estate-480.webp",
+          "jpeg": "/media/showcase/pa/variants/aerial-estate-480.jpg",
+          "webpBytes": 27500,
+          "jpegBytes": 32622
+        },
+        {
+          "width": 800,
+          "height": 489,
+          "webp": "/media/showcase/pa/variants/aerial-estate-800.webp",
+          "jpeg": "/media/showcase/pa/variants/aerial-estate-800.jpg",
+          "webpBytes": 64618,
+          "jpegBytes": 80626
+        },
+        {
+          "width": 1200,
+          "height": 733,
+          "webp": "/media/showcase/pa/variants/aerial-estate-1200.webp",
+          "jpeg": "/media/showcase/pa/aerial-estate.jpg",
+          "webpBytes": 124196,
+          "jpegBytes": 242840
+        },
+        {
+          "width": 1600,
+          "height": 977,
+          "webp": "/media/showcase/pa/variants/aerial-estate-1600.webp",
+          "jpeg": "/media/showcase/pa/aerial-estate.jpg",
+          "webpBytes": 185894,
+          "jpegBytes": 242840
+        }
+      ]
+    },
+    "/media/showcase/pa/amphitheatre.jpg": {
+      "width": 1600,
+      "height": 1032,
+      "bytes": 212222,
+      "variants": [
+        {
+          "width": 480,
+          "height": 310,
+          "webp": "/media/showcase/pa/variants/amphitheatre-480.webp",
+          "jpeg": "/media/showcase/pa/variants/amphitheatre-480.jpg",
+          "webpBytes": 21554,
+          "jpegBytes": 26388
+        },
+        {
+          "width": 800,
+          "height": 516,
+          "webp": "/media/showcase/pa/variants/amphitheatre-800.webp",
+          "jpeg": "/media/showcase/pa/variants/amphitheatre-800.jpg",
+          "webpBytes": 58246,
+          "jpegBytes": 70504
+        },
+        {
+          "width": 1200,
+          "height": 774,
+          "webp": "/media/showcase/pa/variants/amphitheatre-1200.webp",
+          "jpeg": "/media/showcase/pa/amphitheatre.jpg",
+          "webpBytes": 107072,
+          "jpegBytes": 212222
+        },
+        {
+          "width": 1600,
+          "height": 1032,
+          "webp": "/media/showcase/pa/variants/amphitheatre-1600.webp",
+          "jpeg": "/media/showcase/pa/amphitheatre.jpg",
+          "webpBytes": 177132,
+          "jpegBytes": 212222
+        }
+      ]
+    },
+    "/media/showcase/pa/dining-terrace.jpg": {
+      "width": 1600,
+      "height": 1317,
+      "bytes": 326530,
+      "variants": [
+        {
+          "width": 480,
+          "height": 395,
+          "webp": "/media/showcase/pa/variants/dining-terrace-480.webp",
+          "jpeg": "/media/showcase/pa/variants/dining-terrace-480.jpg",
+          "webpBytes": 55336,
+          "jpegBytes": 59837
+        },
+        {
+          "width": 800,
+          "height": 659,
+          "webp": "/media/showcase/pa/variants/dining-terrace-800.webp",
+          "jpeg": "/media/showcase/pa/variants/dining-terrace-800.jpg",
+          "webpBytes": 121468,
+          "jpegBytes": 142090
+        },
+        {
+          "width": 1200,
+          "height": 988,
+          "webp": "/media/showcase/pa/variants/dining-terrace-1200.webp",
+          "jpeg": "/media/showcase/pa/dining-terrace.jpg",
+          "webpBytes": 204858,
+          "jpegBytes": 326530
+        },
+        {
+          "width": 1600,
+          "height": 1317,
+          "webp": "/media/showcase/pa/variants/dining-terrace-1600.webp",
+          "jpeg": "/media/showcase/pa/dining-terrace.jpg",
+          "webpBytes": 293496,
+          "jpegBytes": 326530
+        }
+      ]
+    },
+    "/media/showcase/pa/entrance-dusk.jpg": {
+      "width": 1600,
+      "height": 1439,
+      "bytes": 330567,
+      "variants": [
+        {
+          "width": 480,
+          "height": 432,
+          "webp": "/media/showcase/pa/variants/entrance-dusk-480.webp",
+          "jpeg": "/media/showcase/pa/variants/entrance-dusk-480.jpg",
+          "webpBytes": 37348,
+          "jpegBytes": 45250
+        },
+        {
+          "width": 800,
+          "height": 720,
+          "webp": "/media/showcase/pa/variants/entrance-dusk-800.webp",
+          "jpeg": "/media/showcase/pa/variants/entrance-dusk-800.jpg",
+          "webpBytes": 97186,
+          "jpegBytes": 117811
+        },
+        {
+          "width": 1200,
+          "height": 1079,
+          "webp": "/media/showcase/pa/variants/entrance-dusk-1200.webp",
+          "jpeg": "/media/showcase/pa/entrance-dusk.jpg",
+          "webpBytes": 201498,
+          "jpegBytes": 330567
+        },
+        {
+          "width": 1600,
+          "height": 1439,
+          "webp": "/media/showcase/pa/variants/entrance-dusk-1600.webp",
+          "jpeg": "/media/showcase/pa/entrance-dusk.jpg",
+          "webpBytes": 330482,
+          "jpegBytes": 330567
+        }
+      ]
+    },
+    "/media/showcase/pa/lake-dusk.jpg": {
+      "width": 1600,
+      "height": 1065,
+      "bytes": 109119,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "webp": "/media/showcase/pa/variants/lake-dusk-480.webp",
+          "jpeg": "/media/showcase/pa/variants/lake-dusk-480.jpg",
+          "webpBytes": 12308,
+          "jpegBytes": 18649
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "webp": "/media/showcase/pa/variants/lake-dusk-800.webp",
+          "jpeg": "/media/showcase/pa/variants/lake-dusk-800.jpg",
+          "webpBytes": 26054,
+          "jpegBytes": 42103
+        },
+        {
+          "width": 1200,
+          "height": 799,
+          "webp": "/media/showcase/pa/variants/lake-dusk-1200.webp",
+          "jpeg": "/media/showcase/pa/lake-dusk.jpg",
+          "webpBytes": 47800,
+          "jpegBytes": 109119
+        },
+        {
+          "width": 1600,
+          "height": 1065,
+          "webp": "/media/showcase/pa/variants/lake-dusk-1600.webp",
+          "jpeg": "/media/showcase/pa/lake-dusk.jpg",
+          "webpBytes": 74196,
+          "jpegBytes": 109119
+        }
+      ]
+    },
+    "/media/showcase/pa/lawn-wings.jpg": {
+      "width": 1600,
+      "height": 958,
+      "bytes": 190190,
+      "variants": [
+        {
+          "width": 480,
+          "height": 287,
+          "webp": "/media/showcase/pa/variants/lawn-wings-480.webp",
+          "jpeg": "/media/showcase/pa/variants/lawn-wings-480.jpg",
+          "webpBytes": 19960,
+          "jpegBytes": 26493
+        },
+        {
+          "width": 800,
+          "height": 479,
+          "webp": "/media/showcase/pa/variants/lawn-wings-800.webp",
+          "jpeg": "/media/showcase/pa/variants/lawn-wings-800.jpg",
+          "webpBytes": 48946,
+          "jpegBytes": 66730
+        },
+        {
+          "width": 1200,
+          "height": 719,
+          "webp": "/media/showcase/pa/variants/lawn-wings-1200.webp",
+          "jpeg": "/media/showcase/pa/lawn-wings.jpg",
+          "webpBytes": 88272,
+          "jpegBytes": 190190
+        },
+        {
+          "width": 1600,
+          "height": 958,
+          "webp": "/media/showcase/pa/variants/lawn-wings-1600.webp",
+          "jpeg": "/media/showcase/pa/lawn-wings.jpg",
+          "webpBytes": 146184,
+          "jpegBytes": 190190
+        }
+      ]
+    },
+    "/media/showcase/pa/pool-umbrellas.jpg": {
+      "width": 1600,
+      "height": 706,
+      "bytes": 227353,
+      "variants": [
+        {
+          "width": 480,
+          "height": 212,
+          "webp": "/media/showcase/pa/variants/pool-umbrellas-480.webp",
+          "jpeg": "/media/showcase/pa/variants/pool-umbrellas-480.jpg",
+          "webpBytes": 26688,
+          "jpegBytes": 30352
+        },
+        {
+          "width": 800,
+          "height": 353,
+          "webp": "/media/showcase/pa/variants/pool-umbrellas-800.webp",
+          "jpeg": "/media/showcase/pa/variants/pool-umbrellas-800.jpg",
+          "webpBytes": 70022,
+          "jpegBytes": 79624
+        },
+        {
+          "width": 1200,
+          "height": 530,
+          "webp": "/media/showcase/pa/variants/pool-umbrellas-1200.webp",
+          "jpeg": "/media/showcase/pa/pool-umbrellas.jpg",
+          "webpBytes": 127542,
+          "jpegBytes": 227353
+        },
+        {
+          "width": 1600,
+          "height": 706,
+          "webp": "/media/showcase/pa/variants/pool-umbrellas-1600.webp",
+          "jpeg": "/media/showcase/pa/pool-umbrellas.jpg",
+          "webpBytes": 205500,
+          "jpegBytes": 227353
+        }
+      ]
+    },
+    "/media/showcase/pa/reception.jpg": {
+      "width": 1600,
+      "height": 1272,
+      "bytes": 279955,
+      "variants": [
+        {
+          "width": 480,
+          "height": 382,
+          "webp": "/media/showcase/pa/variants/reception-480.webp",
+          "jpeg": "/media/showcase/pa/variants/reception-480.jpg",
+          "webpBytes": 29198,
+          "jpegBytes": 38292
+        },
+        {
+          "width": 800,
+          "height": 636,
+          "webp": "/media/showcase/pa/variants/reception-800.webp",
+          "jpeg": "/media/showcase/pa/variants/reception-800.jpg",
+          "webpBytes": 75772,
+          "jpegBytes": 98279
+        },
+        {
+          "width": 1200,
+          "height": 954,
+          "webp": "/media/showcase/pa/variants/reception-1200.webp",
+          "jpeg": "/media/showcase/pa/reception.jpg",
+          "webpBytes": 136902,
+          "jpegBytes": 279955
+        },
+        {
+          "width": 1600,
+          "height": 1272,
+          "webp": "/media/showcase/pa/variants/reception-1600.webp",
+          "jpeg": "/media/showcase/pa/reception.jpg",
+          "webpBytes": 211784,
+          "jpegBytes": 279955
+        }
+      ]
+    },
+    "/media/showcase/pa/room-patra-garden-bedroom.jpg": {
+      "width": 1479,
+      "height": 1109,
+      "bytes": 141680,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-patra-garden-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-garden-bedroom-480.jpg",
+          "webpBytes": 14198,
+          "jpegBytes": 22625
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-patra-garden-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-garden-bedroom-800.jpg",
+          "webpBytes": 30246,
+          "jpegBytes": 53600
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-patra-garden-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-patra-garden-bedroom.jpg",
+          "webpBytes": 59274,
+          "jpegBytes": 141680
+        }
+      ]
+    },
+    "/media/showcase/pa/room-patra-junior-bedroom.jpg": {
+      "width": 1477,
+      "height": 1108,
+      "bytes": 138686,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-patra-junior-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-junior-bedroom-480.jpg",
+          "webpBytes": 16600,
+          "jpegBytes": 25244
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-patra-junior-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-junior-bedroom-800.jpg",
+          "webpBytes": 34112,
+          "jpegBytes": 57345
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-patra-junior-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-patra-junior-bedroom.jpg",
+          "webpBytes": 61242,
+          "jpegBytes": 138686
+        }
+      ]
+    },
+    "/media/showcase/pa/room-patra-lake-bedroom.jpg": {
+      "width": 1479,
+      "height": 1109,
+      "bytes": 168705,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-patra-lake-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-lake-bedroom-480.jpg",
+          "webpBytes": 17426,
+          "jpegBytes": 26279
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-patra-lake-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-patra-lake-bedroom-800.jpg",
+          "webpBytes": 39830,
+          "jpegBytes": 63660
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-patra-lake-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-patra-lake-bedroom.jpg",
+          "webpBytes": 75884,
+          "jpegBytes": 168705
+        }
+      ]
+    },
+    "/media/showcase/pa/room-vana-country-bedroom.jpg": {
+      "width": 1479,
+      "height": 1109,
+      "bytes": 155957,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-vana-country-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-country-bedroom-480.jpg",
+          "webpBytes": 14272,
+          "jpegBytes": 23265
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-vana-country-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-country-bedroom-800.jpg",
+          "webpBytes": 31916,
+          "jpegBytes": 55641
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-vana-country-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-vana-country-bedroom.jpg",
+          "webpBytes": 64016,
+          "jpegBytes": 155957
+        }
+      ]
+    },
+    "/media/showcase/pa/room-vana-garden-bedroom.jpg": {
+      "width": 1479,
+      "height": 1109,
+      "bytes": 168189,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-vana-garden-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-garden-bedroom-480.jpg",
+          "webpBytes": 14874,
+          "jpegBytes": 23590
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-vana-garden-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-garden-bedroom-800.jpg",
+          "webpBytes": 35010,
+          "jpegBytes": 58141
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-vana-garden-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-vana-garden-bedroom.jpg",
+          "webpBytes": 74718,
+          "jpegBytes": 168189
+        }
+      ]
+    },
+    "/media/showcase/pa/room-vana-lake-bedroom.jpg": {
+      "width": 1479,
+      "height": 1109,
+      "bytes": 160345,
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "webp": "/media/showcase/pa/variants/room-vana-lake-bedroom-480.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-lake-bedroom-480.jpg",
+          "webpBytes": 15684,
+          "jpegBytes": 23819
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "webp": "/media/showcase/pa/variants/room-vana-lake-bedroom-800.webp",
+          "jpeg": "/media/showcase/pa/variants/room-vana-lake-bedroom-800.jpg",
+          "webpBytes": 35214,
+          "jpegBytes": 57352
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "webp": "/media/showcase/pa/variants/room-vana-lake-bedroom-1200.webp",
+          "jpeg": "/media/showcase/pa/room-vana-lake-bedroom.jpg",
+          "webpBytes": 67092,
+          "jpegBytes": 160345
+        }
+      ]
+    }
+  }
+}
