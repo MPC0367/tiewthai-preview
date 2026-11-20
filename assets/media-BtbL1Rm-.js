@@ -1,0 +1,1 @@
+function n(o){return o.scope??(o.roomTypeIds&&o.roomTypeIds.length>0?"exact_room":"property")}function t(o){return!!o&&o.kind==="photo"&&o.scope==="room_family"&&(o.roomFamilyIds?.length??0)>0}function s(o,r){return!!o&&t(o)&&!!r.family&&!!o.roomFamilyIds?.includes(r.family.id)&&!(o.roomTypeIds&&o.roomTypeIds.length>0)}export{s as a,t as i,n as m};

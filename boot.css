@@ -1,0 +1,95 @@
+/* Logo splash (founder, 20 Nov 2026: "add a loading animation of the logo forming"; docs/design-v2/SPLASH.md).
+   Loaded in <head>, so the very first paint already shows it, before the app's own styles exist (the colours are fixed
+   here for that reason; they match the app canvas and the logo files). public/boot.js picks the mode on <html>:
+     data-splash="intro"  first load in a tab: the strands of the logo draw themselves from the peak down, one after
+                          another, the name settles in under them and a sheen passes once; then src/app/splash.ts
+                          lifts the splash away (data-splash="lift") as soon as the page under it is ready.
+     data-splash="still"  any later load, reduced motion, forced colours, more contrast, automated browsers: nothing
+                          moves; the finished logo shows only if loading takes longer than 400ms, and goes the moment
+                          the page is ready.
+   Without the attribute (JavaScript off) the splash never shows. It is decorative (aria-hidden); the page under it is
+   in the accessibility tree from the start. */
+.tt-splash { display: none; }
+html[data-splash] .tt-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background:
+    radial-gradient(36rem 26rem at 50% 42%, rgba(58, 146, 236, 0.16), rgba(58, 146, 236, 0) 70%),
+    radial-gradient(26rem 20rem at 66% 64%, rgba(40, 196, 204, 0.11), rgba(40, 196, 204, 0) 70%),
+    radial-gradient(22rem 18rem at 33% 30%, rgba(255, 168, 112, 0.06), rgba(255, 168, 112, 0) 70%),
+    #f5f8fc;
+  color: #0076c4; /* the artwork's own blue (public/brand/hotel-thai-logo-clear.png) */
+  /* If the app never lifts it (a failed load), it gets out of the way by itself. */
+  animation: tt-splash-giveup 0s linear 8s forwards;
+}
+html[data-theme="dark"][data-splash] .tt-splash {
+  background:
+    radial-gradient(36rem 26rem at 50% 42%, rgba(36, 110, 236, 0.24), rgba(36, 110, 236, 0) 70%),
+    radial-gradient(26rem 20rem at 66% 64%, rgba(8, 120, 128, 0.2), rgba(8, 120, 128, 0) 70%),
+    radial-gradient(22rem 18rem at 33% 30%, rgba(168, 74, 40, 0.12), rgba(168, 74, 40, 0) 70%),
+    #0d1827;
+  color: #fff; /* white logo on dark surfaces (founder, 12 Nov 2026) */
+}
+.tt-splash__lockup { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.tt-splash__mark { display: block; inline-size: clamp(8.5rem, 24vmin, 12.5rem); block-size: auto; aspect-ratio: 222 / 139; overflow: visible; }
+.tt-splash__pen { fill: none; stroke: #fff; stroke-width: 14; stroke-dasharray: 100 100; stroke-dashoffset: 0; }
+.tt-splash #tt-sheen { color: #fff; }
+html[data-theme="dark"] .tt-splash #tt-sheen { color: #8cc8ff; }
+.tt-splash__sheen { opacity: 0; }
+.tt-splash__name {
+  margin: 0;
+  font-family: "Noto Sans Thai Variable", "Noto Sans Thai", "Leelawadee UI", Thonburi, system-ui, sans-serif;
+  font-size: clamp(1.25rem, 3.6vmin, 1.625rem);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #284a70;
+}
+html[data-theme="dark"] .tt-splash__name { color: #dbe6f3; }
+
+/* Intro: the peak forms first (the thin left line and the first strand start together), then each strand follows 55ms
+   after the one before it, top to bottom; the name settles in; one sheen passes over the finished mark. */
+@keyframes tt-splash-draw { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+@keyframes tt-splash-name { from { opacity: 0; transform: translateY(8px); filter: blur(6px); letter-spacing: 0.14em; } }
+/* No fill outside its run: the sheen exists only while it passes. */
+@keyframes tt-splash-sheen { from { opacity: 1; transform: translateX(0); } to { opacity: 1; transform: translateX(380px); } }
+html[data-splash="intro"] .tt-splash__pen { animation: tt-splash-draw 640ms cubic-bezier(0.65, 0.05, 0.25, 1) 80ms backwards; }
+html[data-splash="intro"] .tt-splash__pen[data-i="2"] { animation-delay: 135ms; }
+html[data-splash="intro"] .tt-splash__pen[data-i="3"] { animation-delay: 190ms; }
+html[data-splash="intro"] .tt-splash__pen[data-i="4"] { animation-delay: 245ms; }
+html[data-splash="intro"] .tt-splash__pen[data-i="5"] { animation-delay: 300ms; }
+html[data-splash="intro"] .tt-splash__pen[data-i="6"] { animation-delay: 355ms; }
+html[data-splash="intro"] .tt-splash__name { animation: tt-splash-name 560ms cubic-bezier(0.2, 0, 0, 1) 560ms backwards; }
+html[data-splash="intro"] .tt-splash__sheen rect { animation: tt-splash-sheen 640ms cubic-bezier(0.4, 0, 0.2, 1) 820ms none; }
+html[data-splash="intro"] .tt-splash__sheen { opacity: 0.55; }
+html[data-theme="dark"][data-splash="intro"] .tt-splash__sheen { opacity: 0.8; }
+.tt-splash__sheen rect { opacity: 0; }
+
+/* Still: no motion, the finished logo, and only when loading takes a moment. */
+@keyframes tt-splash-show { to { visibility: visible; } }
+html[data-splash="still"] .tt-splash { visibility: hidden; animation: tt-splash-show 0s linear 400ms forwards, tt-splash-giveup 0s linear 8s forwards; }
+
+/* Lift: the splash fades while the logo opens up slightly, and the page's own entrance plays under it. */
+html[data-splash="lift"] .tt-splash { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 440ms cubic-bezier(0.4, 0, 0.2, 1), visibility 0s linear 440ms; }
+html[data-splash="lift"] .tt-splash__lockup { transform: scale(1.04); filter: blur(3px); transition: transform 440ms cubic-bezier(0.2, 0, 0, 1), filter 440ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+@keyframes tt-splash-giveup { to { visibility: hidden; opacity: 0; } }
+
+/* Safety nets if the preference changes after boot.js ran: nothing moves, and forced colours paint system colours. */
+@media (prefers-reduced-motion: reduce) {
+  html[data-splash] .tt-splash__pen,
+  html[data-splash] .tt-splash__name,
+  html[data-splash] .tt-splash__sheen rect { animation: none; }
+  html[data-splash] .tt-splash__sheen { display: none; }
+  html[data-splash="lift"] .tt-splash,
+  html[data-splash="lift"] .tt-splash__lockup { transition: none; transform: none; filter: none; }
+}
+@media (forced-colors: active) {
+  html[data-splash] .tt-splash { background: Canvas; color: CanvasText; }
+  html[data-splash] .tt-splash__name { color: CanvasText; }
+  html[data-splash] .tt-splash__sheen { display: none; }
+}

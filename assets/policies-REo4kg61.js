@@ -1,0 +1,1 @@
+const i={id:"demo-booking-terms",revision:1,effective:"2026-11-11"},s={id:"demo-service-terms",revision:1,effective:"2026-11-11"},o={revision:2,effective:"2026-11-11"};function r(e){return!!e&&e.policyId===i.id&&e.revision===i.revision}export{i as B,o as P,s as S,r as a};

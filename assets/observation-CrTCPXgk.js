@@ -1,0 +1,1 @@
+function n(e,t){return e?t.checkIn===e.checkIn&&t.checkOut===e.checkOut&&t.rooms.length===e.rooms&&t.rooms.every(a=>a.adults===e.adults&&a.childAges.length===0)&&t.totalSatang===e.totalSatang:!1}export{n as o};

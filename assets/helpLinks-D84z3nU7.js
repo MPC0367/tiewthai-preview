@@ -1,0 +1,1 @@
+import{ac as t}from"./index-hfkwi7px.js";const o=["how","prices","refunds","terms","about"];function s(n){return!!n&&o.includes(n)}function u(n,e){const r=t(e??null);return`/help${n?`/${n}`:""}${r?`?return=${encodeURIComponent(r)}`:""}`}function a(n){const e=t(n??null);return`/account/privacy${e?`?return=${encodeURIComponent(e)}`:""}`}export{u as h,s as i,a as p};
